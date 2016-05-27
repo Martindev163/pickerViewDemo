@@ -23,6 +23,7 @@
 @property (strong, nonatomic) NSArray *provinceAr;
 @property (strong, nonatomic) NSArray *cityAr;
 @property (strong, nonatomic) NSArray *districtAr;
+@property (weak, nonatomic) IBOutlet UILabel *showSelectLab;
 
 @end
 
@@ -44,7 +45,7 @@
 }
 
 #pragma mark - loadData
-/*此处是
+/*此处数据是
  [
    {省
      [
@@ -146,6 +147,8 @@
         _districtAr = cityMd.districtArr;
     }
     [self.pickerView reloadAllComponents];
+    
+    self.showSelectLab.text = [NSString stringWithFormat:@"%@-%@-%@",_provinceAr[[self.pickerView selectedRowInComponent:0]],_cityAr[[self.pickerView selectedRowInComponent:1]],_districtAr[[self.pickerView selectedRowInComponent:2]]];
 }
 
 @end

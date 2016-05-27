@@ -23,10 +23,22 @@
                                     <constraint firstAttribute="height" constant="216" id="MqZ-tw-QqG"/>
                                 </constraints>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2y-py-7qx">
+                                <rect key="frame" x="0.0" y="256" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="t2a-N9-eXW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="W2y-py-7qx" secondAttribute="trailing" id="5NW-Vt-lH1"/>
+                            <constraint firstItem="W2y-py-7qx" firstAttribute="top" secondItem="1S7-1P-mG5" secondAttribute="bottom" constant="20" id="Lau-Bx-KiH"/>
                             <constraint firstItem="1S7-1P-mG5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cp2-6Q-kss"/>
+                            <constraint firstItem="W2y-py-7qx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kWZ-J4-AOP"/>
                             <constraint firstItem="1S7-1P-mG5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sZo-FV-D8e"/>
                             <constraint firstAttribute="trailing" secondItem="1S7-1P-mG5" secondAttribute="trailing" id="vRy-AY-q7i"/>
                         </constraints>
@@ -34,11 +46,12 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="pickerView" destination="1S7-1P-mG5" id="jie-vI-8pY"/>
+                        <outlet property="showSelectLab" destination="W2y-py-7qx" id="mYU-7r-RaW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129.5" y="305.5"/>
+            <point key="canvasLocation" x="-10.5" y="295.5"/>
         </scene>
     </scenes>
 </document>

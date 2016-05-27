@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C9E1ABA959DB60E59085A7FD3E1943BC3066A592",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AF47D4A3F34FEF4628F2EF7AEC8326E949F17015" : 0,
+    "C9E1ABA959DB60E59085A7FD3E1943BC3066A592" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "99B29F9E-B59C-4142-A3AA-21547AA5980D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AF47D4A3F34FEF4628F2EF7AEC8326E949F17015" : "",
+    "C9E1ABA959DB60E59085A7FD3E1943BC3066A592" : "pickerViewDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pickerViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pickerViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haozheMa\/3DTouch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF47D4A3F34FEF4628F2EF7AEC8326E949F17015"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haozheMa\/pickerViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9E1ABA959DB60E59085A7FD3E1943BC3066A592"
+    }
+  ]
+}
