@@ -15,6 +15,9 @@
 		23FBAC9D1CF7E7D10054C6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FBAC9B1CF7E7D10054C6AB /* LaunchScreen.storyboard */; };
 		23FBACA81CF7E7D10054C6AB /* pickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FBACA71CF7E7D10054C6AB /* pickerViewDemoTests.m */; };
 		23FBACB31CF7E7D10054C6AB /* pickerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FBACB21CF7E7D10054C6AB /* pickerViewDemoUITests.m */; };
+		23FBACC11CF7E8780054C6AB /* testList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23FBACC01CF7E8780054C6AB /* testList.plist */; };
+		23FBACC71CF7EE000054C6AB /* cityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FBACC41CF7EE000054C6AB /* cityModel.m */; };
+		23FBACC81CF7EE000054C6AB /* provinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FBACC61CF7EE000054C6AB /* provinceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		23FBACAE1CF7E7D10054C6AB /* pickerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FBACB21CF7E7D10054C6AB /* pickerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickerViewDemoUITests.m; sourceTree = "<group>"; };
 		23FBACB41CF7E7D10054C6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FBACC01CF7E8780054C6AB /* testList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testList.plist; sourceTree = "<group>"; };
+		23FBACC31CF7EE000054C6AB /* cityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityModel.h; sourceTree = "<group>"; };
+		23FBACC41CF7EE000054C6AB /* cityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityModel.m; sourceTree = "<group>"; };
+		23FBACC51CF7EE000054C6AB /* provinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provinceModel.h; sourceTree = "<group>"; };
+		23FBACC61CF7EE000054C6AB /* provinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = provinceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,10 @@
 		23FBAC8C1CF7E7D10054C6AB /* pickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				23FBAC901CF7E7D10054C6AB /* AppDelegate.h */,
-				23FBAC911CF7E7D10054C6AB /* AppDelegate.m */,
+				23FBACC21CF7EDF50054C6AB /* model */,
 				23FBAC931CF7E7D10054C6AB /* ViewController.h */,
 				23FBAC941CF7E7D10054C6AB /* ViewController.m */,
 				23FBAC961CF7E7D10054C6AB /* Main.storyboard */,
-				23FBAC991CF7E7D10054C6AB /* Assets.xcassets */,
-				23FBAC9B1CF7E7D10054C6AB /* LaunchScreen.storyboard */,
-				23FBAC9E1CF7E7D10054C6AB /* Info.plist */,
 				23FBAC8D1CF7E7D10054C6AB /* Supporting Files */,
 			);
 			path = pickerViewDemo;
@@ -117,6 +121,12 @@
 		23FBAC8D1CF7E7D10054C6AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23FBAC901CF7E7D10054C6AB /* AppDelegate.h */,
+				23FBAC911CF7E7D10054C6AB /* AppDelegate.m */,
+				23FBAC991CF7E7D10054C6AB /* Assets.xcassets */,
+				23FBAC9B1CF7E7D10054C6AB /* LaunchScreen.storyboard */,
+				23FBAC9E1CF7E7D10054C6AB /* Info.plist */,
+				23FBACC01CF7E8780054C6AB /* testList.plist */,
 				23FBAC8E1CF7E7D10054C6AB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +148,17 @@
 				23FBACB41CF7E7D10054C6AB /* Info.plist */,
 			);
 			path = pickerViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		23FBACC21CF7EDF50054C6AB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				23FBACC31CF7EE000054C6AB /* cityModel.h */,
+				23FBACC41CF7EE000054C6AB /* cityModel.m */,
+				23FBACC51CF7EE000054C6AB /* provinceModel.h */,
+				23FBACC61CF7EE000054C6AB /* provinceModel.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FBACC11CF7E8780054C6AB /* testList.plist in Resources */,
 				23FBAC9D1CF7E7D10054C6AB /* LaunchScreen.storyboard in Resources */,
 				23FBAC9A1CF7E7D10054C6AB /* Assets.xcassets in Resources */,
 				23FBAC981CF7E7D10054C6AB /* Main.storyboard in Resources */,
@@ -270,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FBACC71CF7EE000054C6AB /* cityModel.m in Sources */,
 				23FBAC951CF7E7D10054C6AB /* ViewController.m in Sources */,
 				23FBAC921CF7E7D10054C6AB /* AppDelegate.m in Sources */,
 				23FBAC8F1CF7E7D10054C6AB /* main.m in Sources */,
+				23FBACC81CF7EE000054C6AB /* provinceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

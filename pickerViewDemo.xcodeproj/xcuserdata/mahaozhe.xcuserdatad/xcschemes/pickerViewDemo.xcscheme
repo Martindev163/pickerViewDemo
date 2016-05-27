@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23FBAC891CF7E7D10054C6AB"
+               BuildableName = "pickerViewDemo.app"
+               BlueprintName = "pickerViewDemo"
+               ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23FBACA21CF7E7D10054C6AB"
+               BuildableName = "pickerViewDemoTests.xctest"
+               BlueprintName = "pickerViewDemoTests"
+               ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23FBACAD1CF7E7D10054C6AB"
+               BuildableName = "pickerViewDemoUITests.xctest"
+               BlueprintName = "pickerViewDemoUITests"
+               ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23FBAC891CF7E7D10054C6AB"
+            BuildableName = "pickerViewDemo.app"
+            BlueprintName = "pickerViewDemo"
+            ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23FBAC891CF7E7D10054C6AB"
+            BuildableName = "pickerViewDemo.app"
+            BlueprintName = "pickerViewDemo"
+            ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23FBAC891CF7E7D10054C6AB"
+            BuildableName = "pickerViewDemo.app"
+            BlueprintName = "pickerViewDemo"
+            ReferencedContainer = "container:pickerViewDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
